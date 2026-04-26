@@ -22,14 +22,14 @@ new class extends Component
                 <div class="employee-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">why choose us</h3>
-                        <h2 class="text-anime-style-3">Why choose us as your trusted financial partner?</h2>
+                        <h3 class="wow fadeInUp">{{ __('home.choose_section') }}</h3>
+                        <h2 class="text-anime-style-3">{{ __('home.employee_title') }}</h2>
                     </div>
                     <!-- Section Title End -->
 
                     <!-- Employee Body Start -->
                     <div class="employee-body wow fadeInUp" data-wow-delay="0.25s">
-                        <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of.</p>
+                        <p>{{ __('home.employee_text') }}</p>
                     </div>
                     <!-- Employee Body End -->
 

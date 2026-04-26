@@ -4,7 +4,8 @@
             <div class="container">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="/">
-                    <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="Noricsiffran" />
+                    {{-- <img src="{{ Vite::asset('resources/images/nordicsiffran_logo_2.jpg') }}" alt="Nordicsiffran" /> --}}
+                    <span>Nordicsiffran</span>
                 </a>
                 <!-- Logo End -->
 
@@ -13,30 +14,22 @@
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('home') }}">Home</a>
+                                <a class="nav-link" href="{{ route('home') }}">{{ __('buttons.home') }}</a>
                             </li>                                
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('about') }}">About us</a>
+                                <a class="nav-link" href="{{ route('about') }}">{{ __('buttons.about_us') }}</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>
-                            <li class="nav-item submenu"><a class="nav-link" href="#">pages</a>
-                                <ul>                                        
-                                    <li class="nav-item"><a class="nav-link" href="service-single.html">service details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">blog details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="faqs.html">FAQ</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="#">Book Now</a></li>                               
+                            <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">{{ __('buttons.services') }}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('pricing') }}">{{ __('buttons.pricing') }}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('automation') }}">{{ __('buttons.automation') }}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">{{ __('buttons.contact_us') }}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('faqs') }}">{{ __('buttons.faqs') }}</a></li>
+                            <livewire:language-switcher-mobile />                                          
                         </ul>
                     </div>
                     <!-- Let’s Start Button Start -->
-                    <div class="header-btn d-inline-flex">
-                        <a href="#" class="btn-default">book now</a>
+                    <div class="header-btn">
+                        <livewire:language-switcher />
                     </div>
                     <!-- Let’s Start Button End -->
                 </div>

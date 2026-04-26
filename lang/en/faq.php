@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'faq' => 'Frequently asked questions',
+    'faq_1' => 'How does it work to switch accounting firm',
+    'faq_1_ans' => 'Switching to us is easy. We handle the entire process and ensure a smooth transition without affecting your ongoing operations. If you choose to switch again in the future, we will of course assist you then as well',
+    'faq_2' => 'What makes us different',
+    'faq_2_ans' => 'We combine quality, personal service and efficient working methods. You receive quick responses, clear communication and a solution tailored to your business - at a competitive price',
+    'faq_3' => 'Do I need to hire an accounting firm',
+    'faq_3_ans' => 'It is not a requirement, but often a smart investment. Even though accounting software has become easier to use, regulations can quickly become complex. As a business owner, you are responsible for complying with accounting and reporting laws. Errors can lead to costly consequences. By working with an accounting firm, you reduce the risk of mistakes and gain more time to focus on your business',
+    'faq_4' => 'What services do you offer',
+    'faq_4_text' => 'We offer a complete financial solution',
+    'faq_4_pt_1' => 'Ongoing bookkeeping',
+    'faq_4_pt_2' => 'Payroll management',
+    'faq_4_pt_3' => 'Invoicing and payment flows',
+    'faq_4_pt_4' => 'Taxes and declarations',
+    'faq_4_pt_5' => 'Year-end closing and annual reports',
+    'faq_4_pt_6' => 'Financial follow-up and reporting',
+    'faq_4_ans' => 'As a client, you always have access to support and ongoing advisory. You can choose to handle certain parts yourself or let us take care of everything. We work without binding contracts and also assist with company formation and restructuring',
+    'faq_5' => 'Why is accurate bookkeeping important',
+    'faq_5_ans' => 'Accounting is not only a legal requirement - it is the foundation for understanding and managing your business. When your bookkeeping is accurate, you receive reliable reports that reflect how your company is truly performing. This gives you better support for decision-making and planning. At the same time, you reduce the risk of issues during audits and ensure long-term stability', 
+    'faq_6' => 'Should I handle the bookkeeping myself or get help',
+    'faq_6_ans' => 'It depends on the size and complexity of your business. In smaller businesses, it may work to handle parts yourself. However, as your company grows, financial management becomes more complex. We can either take care of your entire accounting or act as support by reviewing and quality-assuring your work. Our goal is always to find the most efficient and cost-effective solution for you',
+    'faq_7' => 'Can we meet in person',
+    'faq_7_ans' => 'We operate as a fully digital accounting firm, which means our services and collaborations take place online. This allows us to work more efficiently, flexibly and cost-effectively. Instead, we offer digital meetings via Google Meet or contact by phone - so you can easily receive support and advice wherever you are',   
+];

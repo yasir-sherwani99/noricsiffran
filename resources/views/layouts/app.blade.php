@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="{{ app()->getLocale() }}">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -32,13 +32,17 @@
     <!-- Header Start -->
 	@include('partials.header')
 	<!-- Header End -->
+
 	{{ $slot }}
+
     <!-- Footer Start -->
     @include('partials.footer')
     <!-- Footer End -->
 
 	<!-- Jquery Library File -->
     <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
+    <!-- Popper js file -->
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
     <!-- Bootstrap js file -->
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Validator js file -->
@@ -65,5 +69,6 @@
     <!-- Main Custom js file -->
     <script src="{{ asset('assets/js/function.js') }}"></script>
     @livewireScripts
+    @stack('scripts')
 </body>
 </html>

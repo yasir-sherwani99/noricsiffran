@@ -14,8 +14,8 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">about us</h3>
-                    <h2 class="text-anime-style-3">Your trusted partner in accounting solutions</h2>
+                    <h3 class="wow fadeInUp">{{ __('messages.about_section') }}</h3>
+                    <h2 class="text-anime-style-3">{{ __('messages.about_title') }}</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -23,7 +23,7 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Content Start -->
                 <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                    <p>{{ __('messages.about_text') }}</p>
                 </div>
                 <!-- Section Title Content End -->
             </div>
@@ -36,7 +36,7 @@ new class extends Component
                     <!-- About Image Start -->
                     <div class="about-image">
                         <figure class="image-anime reveal">
-                            <img src="images/about-us-img.jpg" alt="">
+                            <img src="{{ Vite::asset('resources/images/about-us-img.jpg') }}" alt="Noricsiffran" />
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -44,7 +44,7 @@ new class extends Component
                     <!-- About Video Btn Start -->
                     <div class="about-video-btn">
                         <div class="icon-box">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i>play video</a>
+                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i>{{ __('buttons.play_video') }}</a>
                         </div>
                     </div>
                     <!-- About Video Btn End -->
@@ -61,7 +61,7 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-about-company-1.svg') }}" alt="Noricsiffran">
                     </div>
                     <div class="about-company-content">
-                        <p>We prioritize building long-term relationships with our clients and always put their needs first.</p>
+                        <p>{{ __('services.content_1') }}</p>
                     </div>
                 </div>
                 <!-- About Company Item End -->
@@ -74,7 +74,7 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-about-company-2.svg') }}" alt="Noricsiffran">
                     </div>
                     <div class="about-company-content">
-                        <p>Every client is unique, and we tailor our services to fit your individual circumstances and goals.</p>
+                        <p>{{ __('services.content_2') }}</p>
                     </div>
                 </div>
                 <!-- About Company Item End -->
@@ -87,7 +87,7 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-about-company-3.svg') }}" alt="Noricsiffran">
                     </div>
                     <div class="about-company-content">
-                        <p>We leverage cutting-edge technology and software to streamline processes.</p>
+                        <p>{{ __('services.content_3') }}</p>
                     </div>
                 </div>
                 <!-- About Company Item End -->

@@ -1,6 +1,6 @@
 <div>
     <!-- page header start -->
-	<livewire:page-header-section title="About Us" page="about us" />
+	<livewire:page-header-section title="{{ __('buttons.about_us') }}" page="{{ __('buttons.about_us') }}" />
 	<!-- page header end -->
 
     <!-- page about section start -->
@@ -8,11 +8,11 @@
     <!-- page about section end -->
 
     <!-- why choose us section start -->
-    <livewire:why-choose-us-section />
+    <livewire:mission-section />
     <!-- why choose us section end -->
 
     <!-- our clients section start -->
-    <livewire:clients-section />
+    {{-- <livewire:clients-section /> --}}
     <!-- our clients section end -->
 
     <!-- cta box section start -->
@@ -20,18 +20,18 @@
     <!-- cta box section end -->
 
     <!-- state counter section start -->
-    <livewire:counter-section />
+    {{-- <livewire:counter-section /> --}}
     <!-- state counter section end -->
 
     <!-- company planning section start -->
-    <livewire:planning-section />
+    <livewire:vision-section />
     <!-- company planning section end -->
 
     <!-- client testimonials start -->
-    <livewire:testimonial-section />
+    {{-- <livewire:testimonial-section /> --}}
     <!-- client testimonials end -->
 
     <!-- our team section start -->
-    <livewire:team-section />
+    {{-- <livewire:team-section /> --}}
     <!-- our team section end -->
 </div>

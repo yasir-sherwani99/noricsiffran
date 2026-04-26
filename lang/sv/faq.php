@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'faq' => 'Vanliga frågor',
+    'faq_1' => 'Hur går det till att byta redovisningsbyrå',
+    'faq_1_ans' => 'Att byta till oss är enkelt. Vi sköter hela processen och ser till att övergången sker smidigt utan att påverka din löpande verksamhet. Om du i framtiden vill byta vidare hjälper vi dig självklart även då',
+    'faq_2' => 'Vad gör vi annorlunda',
+    'faq_2_ans' => 'Vi kombinerar kvalitet, personlig service och effektiva arbetsmetoder. Du får snabb återkoppling, tydlig kommunikation och en lösning som är anpassad efter din verksamhet - till ett konkurrenskraftigt pris',
+    'faq_3' => 'Behöver man anlita en redovisningsbyrå',
+    'faq_3_ans' => 'Det är inget krav, men ofta en klok investering. Även om bokföringsprogram blivit enklare kan regelverket snabbt bli komplext. Som företagare ansvarar du för att följa lagar som bokföringslagen och årsredovisningslagen. Fel kan leda till kostsamma konsekvenser. Med en redovisningsbyrå minskar du risken för misstag och får mer tid att fokusera på din verksamhet',
+    'faq_4' => 'Vilka tjänster erbjuder ni',
+    'faq_4_text' => 'Vi erbjuder en komplett ekonomilösning',
+    'faq_4_pt_1' => 'Löpande bokföring',
+    'faq_4_pt_2' => 'Lönehantering',
+    'faq_4_pt_3' => 'Fakturering och betalflöden',
+    'faq_4_pt_4' => 'Skatter och deklarationer',
+    'faq_4_pt_5' => 'Bokslut och årsredovisning',
+    'faq_4_pt_6' => 'Ekonomisk uppföljning och rapportering',
+    'faq_4_ans' => 'Som kund får du alltid tillgång till support och löpande rådgivning. Du väljer själv om du vill sköta vissa delar eller låta oss ta hand om helheten. Vi arbetar utan bindningstid och hjälper även till vid bolagsstart eller omstrukturering',
+    'faq_5' => 'Varför är korrekt bokföring viktig',
+    'faq_5_ans' => 'Redovisning är inte bara ett lagkrav - det är grunden för att förstå och styra din verksamhet. När bokföringen är korrekt får du tillförlitliga rapporter som visar hur företaget faktiskt presterar. Det ger dig bättre underlag för beslut och planering. Samtidigt minskar du risken för problem vid kontroller och säkerställer att allt fungerar långsiktigt', 
+    'faq_6' => 'Ska jag göra bokföringen själv eller ta hjälp',
+    'faq_6_ans' => 'Det beror på företagets storlek och komplexitet. I mindre verksamheter kan det fungera att hantera delar själv. Men i takt med att företaget växer blir ekonomin mer avancerad. Vi kan antingen ta hand om hela redovisningen eller fungera som ett stöd där vi granskar och kvalitetssäkrar ditt arbete. Vårt mål är alltid att hitta den lösning som är mest effektiv och lönsam för dig',
+    'faq_7' => 'Kan vi träffas fysiskt',
+    'faq_7_ans' => 'Vi arbetar som en helt digital redovisningsbyrå, vilket innebär att våra tjänster och samarbeten sker online. Detta gör att vi kan arbeta mer effektivt, flexibelt och kostnadseffektivt. Istället erbjuder vi digitala möten via exempelvis Google Meet eller kontakt via telefon - så att du enkelt kan få stöd och rådgivning oavsett var du befinner dig',
+];

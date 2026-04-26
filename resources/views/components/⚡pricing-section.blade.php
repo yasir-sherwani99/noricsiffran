@@ -14,8 +14,8 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">our pricing</h3>
-                    <h2 class="text-anime-style-3">Discover affordable and flexible packages</h2>
+                    <h3 class="wow fadeInUp">{{ __('pricing.section') }}</h3>
+                    <h2 class="text-anime-style-3">{{ __('pricing.title') }}</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -23,7 +23,7 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Content Start -->
                 <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                    <p>{{ __('pricing.text') }}.</p>
                 </div>
                 <!-- Section Title Content End -->
             </div>
@@ -39,22 +39,23 @@ new class extends Component
                             <img src="{{ Vite::asset('resources/images/icon-pricing-1.svg') }}" alt="Noricsiffran" />
                         </div>
                         <div class="pricing-content">
-                            <h3>solo traders</h3>
-                            <p>accounting for sole traders</p>
+                            <h3>{{ __('pricing.package_small') }}</h3>
+                            <p>{{ __('pricing.package_small_headline') }}</p>
                         </div>
                     </div>
                     <!-- Pricing Header End -->
 
                     <!-- Pricing Body Start -->
                     <div class="pricing-body">
-                        <h2>$28</h2>
-                        <p>per month</p>
+                        <small>{{ __('pricing.from') }}</small>
+                        <h2>495</h2>
+                        <p>{{ __('pricing.kr_per_mon') }}</p>
                     </div>
                     <!-- Pricing Body End -->
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">see all features</a>
+                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>
@@ -70,22 +71,23 @@ new class extends Component
                             <img src="{{ Vite::asset('resources/images/icon-pricing-2.svg') }}" alt="Noricsiffran" />
                         </div>
                         <div class="pricing-content">
-                            <h3>limited co.</h3>
-                            <p>accounting for small business</p>
+                            <h3>{{ __('pricing.package_medium') }}</h3>
+                            <p>{{ __('pricing.package_medium_headline') }}</p>
                         </div>
                     </div>
                     <!-- Pricing Header End -->
 
                     <!-- Pricing Body Start -->
                     <div class="pricing-body">
-                        <h2>$59</h2>
-                        <p>per month</p>
+                        <small>{{ __('pricing.from') }}</small>
+                        <h2>995</h2>
+                        <p>{{ __('pricing.kr_per_mon') }}</p>
                     </div>
                     <!-- Pricing Body End -->
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">see all features</a>
+                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>
@@ -101,22 +103,23 @@ new class extends Component
                             <img src="{{ Vite::asset('resources/images/icon-pricing-3.svg') }}" alt="Noricsiffran" />
                         </div>
                         <div class="pricing-content">
-                            <h3>partnership</h3>
-                            <p>accounting for partnerships</p>
+                            <h3>{{ __('pricing.package_large') }}</h3>
+                            <p>{{ __('pricing.package_large_headline') }}</p>
                         </div>
                     </div>
                     <!-- Pricing Header End -->
 
                     <!-- Pricing Body Start -->
                     <div class="pricing-body">
-                        <h2>$49</h2>
-                        <p>per month</p>
+                        <small>{{ __('pricing.from') }}</small>
+                        <h2>1195</h2>
+                        <p>{{ __('pricing.kr_per_mon') }}</p>
                     </div>
                     <!-- Pricing Body End -->
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">see all features</a>
+                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>

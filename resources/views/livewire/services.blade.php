@@ -1,10 +1,10 @@
 <div>
     <!-- page header start -->
-	<livewire:page-header-section title="Services" page="services" />
+	<livewire:page-header-section title="{{ __('services.services') }}" page="{{ __('services.services') }}" />
 	<!-- page header end -->
 
     <!-- our services start -->
-    <livewire:services-section />
+    <livewire:services-section :services="$services" />
     <!-- our services end -->
 
     <!-- cta box section start -->
@@ -16,6 +16,6 @@
     <!-- why choose us section end -->
 
     <!-- our clients section start -->
-    <livewire:clients-section />
+    {{-- <livewire:clients-section /> --}}
     <!-- our clients section end -->
 </div>

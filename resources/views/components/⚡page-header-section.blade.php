@@ -18,7 +18,7 @@ new class extends Component
                     <h1 class="text-anime-style-3">{{ $title }}</h1>
                     <nav class="wow fadeInUp" data-wow-delay="0.25s">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">home</a></li>
+                            <li class="breadcrumb-item"><a href="#">{{ __('buttons.home') }}</a></li>
                             <li class="breadcrumb-item active" aria-current="page">{{ $page }}</li>
                         </ol>
                     </nav>

@@ -16,30 +16,22 @@ new class extends Component
                 <div class="hero-content">
                     <!-- Google Rating Start -->
                     <div class="google-rating wow fadeInUp">
-                            <ul>
-                            <li>Google Rating <span>5.0</span></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                            <li>based on 492 reviews</li>
-                            </ul>   
+                        <ul>
+                            <li>{{ __('home.hero_subtitle') }}</li>
+                        </ul>   
                     </div>
                     <!-- Google Rating End -->
 
                     <div class="section-title">
-                        <h1 class="text-anime-style-3">Your premier destination for expert accounting solutions</h1>
+                        <h1 class="text-anime-style-3">{{ __('home.hero_title') }}</h1>
                     </div>
                     <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                        <p>In suscipit urna mi, vel rutrum metus consequat ac. Integer ac magna pharetra, vestibulum augue eget, pharetra mauris. Maecenas non elit viverra, sollicitudin quam.</p>
+                        <p>{{ __('home.hero_text') }}</p>
                     </div>
 
                     <div class="hero-content-footer wow fadeInUp" data-wow-delay="0.75s">
-                        <a href="#" class="btn-default">work with us</a>
-                        <a href="#" class="btn-default btn-highlighted">view our services</a>
+                        <a href="#" class="btn-default">{{ __('buttons.work_with_us') }}</a>
+                        <a href="#" class="btn-default btn-highlighted">{{ __('buttons.view_our_services') }}</a>
                     </div>
                 </div>
                 <!-- Hero Left Content End -->
@@ -49,7 +41,7 @@ new class extends Component
                 <!-- Hero Image Start -->
                 <div class="hero-image">
                     <figure>
-                        <img src="images/hero-img.png" alt="">
+                        <img src="{{ Vite::asset('resources/images/hero-img.png') }}" alt="Noricsiffran" />
                     </figure>                            
                 </div>
                 <!-- Hero Image End -->

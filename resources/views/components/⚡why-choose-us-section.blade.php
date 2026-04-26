@@ -19,8 +19,8 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">why choose us</h3>
-                    <h2 class="text-anime-style-3">Why choose us as your trusted financial partner?</h2>
+                    <h3 class="wow fadeInUp">{{ __('home.choose_section') }}</h3>
+                    <h2 class="text-anime-style-3">{{ __('home.choose_title') }}</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -28,43 +28,34 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Section Title Content Start -->
                 <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                    <p>{{ __('home.choose_text') }}</p>
                 </div>
                 <!-- Section Title Content End -->
             </div>
         </div>
 
         @if($route === 'home')
+            <!--
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Why Choose Image Box Start -->
                     <div class="why-choose-image-box wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Why Choose Image Start -->
                         <div class="why-choose-image">
-                            <img src="{{ Vite::asset('resources/images/why-choose-us-img.jpg') }}" alt="Norricsiffran" />
+                            <img src="{{-- Vite::asset('resources/images/why-choose-us-img.jpg') --}}" alt="Norricsiffran" />
                         </div>
-                        <!-- Why Choose Image End -->
-
-                        <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <!-- Why Choose Title Start -->
                             <div class="why-choose-title">
                                 <h2 class="text-anime-style-3">Experience seamless, secure, and efficient account management</h2>
                             </div>
-                            <!-- Why Choose Title End -->
 
-                            <!-- Why Choose Counter Start -->
                             <div class="why-choose-counter">
                                 <h3><span class="counter">12</span> Years</h3>
                                 <p>in accounting services</p>
                             </div>
-                            <!-- Why Choose Counter End -->
                         </div>
-                        <!-- Why Choose Content End -->
                     </div>
-                    <!-- Why Choose Image Box End -->
                 </div>                
             </div>
+            -->
         @endif
 
         <div class="row">
@@ -75,8 +66,8 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-why-choose-1.svg') }}" alt="Norricsiffran" />
                     </div>
                     <div class="why-choose-body">
-                        <h3>expertise you can trust</h3>
-                        <p>Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.</p>
+                        <h3>{{ __('home.choose_subtitle_1') }}</h3>
+                        <p>{{ __('home.choose_content_1') }}</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->
@@ -89,8 +80,8 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-why-choose-2.svg') }}" alt="Norricsiffran" />
                     </div>
                     <div class="why-choose-body">
-                        <h3>transparent communication</h3>
-                        <p>Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.</p>
+                        <h3>{{ __('home.choose_subtitle_2') }}</h3>
+                        <p>{{ __('home.choose_content_2') }}</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->
@@ -103,8 +94,8 @@ new class extends Component
                         <img src="{{ Vite::asset('resources/images/icon-why-choose-3.svg') }}" alt="Norricsiffran" />
                     </div>
                     <div class="why-choose-body">
-                        <h3>client satisfaction</h3>
-                        <p>Quisque ligula quam, tempus non tempor sed, tempor in ligula. In sit amet orci elit. Donec egestas eros sit amet odio ultricies fermentum. Phasellus ullamcorper.</p>
+                        <h3>{{ __('home.choose_subtitle_3') }}</h3>
+                        <p>{{ __('home.choose_content_3') }}</p>
                     </div>
                 </div>
                 <!-- Why Choose Item End -->

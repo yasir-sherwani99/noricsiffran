@@ -37,7 +37,7 @@ new class extends Component
                         </div>
                         <div class="satisfied-client-content">
                             <h3><span class="counter">1500</span>+</h3>
-                            <p>satisfied client</p>
+                            <p>{{ __('about.satisfied_client') }}</p>
                         </div>
                     </div>
                     <!-- Satisfied Client End -->
@@ -50,14 +50,14 @@ new class extends Component
                 <div class="about-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">about our company</h3>
-                        <h2 class="text-anime-style-3">Welcome to our accounting company</h2>
+                        <h3 class="wow fadeInUp">{{ __('messages.about_section') }}</h3>
+                        <h2 class="text-anime-style-3">{{ __('about.title') }}</h2>
                     </div>
                     <!-- Section Title End -->
 
                     <!-- About Content Body Start -->
                     <div class="about-content-body wow fadeInUp" data-wow-delay="0.25s">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                        <p>{{ __('about.paragraph_1') }}. {{ __('about.paragraph_2') }}.</p>
                     </div>
                     <!-- About Content Body End -->
 
@@ -69,8 +69,8 @@ new class extends Component
                                 <img src="{{ Vite::asset('resources/images/icon-company-service-1.svg') }}" alt="Noricsiffran" />
                             </div>
                             <div class="company-service-content">
-                                <h3>best quality services</h3>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                                {{-- <h3>best quality services</h3> --}}
+                                <p>{{ __('about.paragraph_3') }}.</p>
                             </div>
                         </div>
                         <!-- About Company Service End -->
@@ -81,8 +81,8 @@ new class extends Component
                                 <img src="{{ Vite::asset('resources/images/icon-company-service-2.svg') }}" alt="Noricsiffran" />
                             </div>
                             <div class="company-service-content">
-                                <h3>professional agents</h3>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                                {{-- <h3>professional agents</h3> --}}
+                                <p>{{ __('about.paragraph_4') }}.</p>
                             </div>
                         </div>
                         <!-- About Company Service End -->

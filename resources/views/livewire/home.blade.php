@@ -7,12 +7,8 @@
     <livewire:about-section />
     <!-- about section end -->
 
-    <!-- our services start -->
-    <livewire:services-section />
-    <!-- our services end -->
-
     <!-- state counter section start -->
-    <livewire:counter-section />
+    {{-- <livewire:counter-section /> --}}
     <!-- state counter section end -->
 
     <!-- why choose us section start -->
@@ -23,12 +19,16 @@
     <livewire:our-employee-section />
     <!-- our employee section end -->
 
+    <!-- our services start -->
+    <livewire:services-section :services="$services" />
+    <!-- our services end -->
+
     <!-- cta box section start -->
     <livewire:cta-box-section />
     <!-- cta box section end -->
 
     <!-- we help section start -->
-    <livewire:help-section />
+    {{-- <livewire:help-section /> --}}
     <!-- we help section end -->
 
     <!-- Our pricing section start -->
@@ -36,10 +36,10 @@
     <!-- Our pricing section end -->
 
     <!-- client testimonials start -->
-    <livewire:testimonial-section />
+    {{-- <livewire:testimonial-section /> --}}
     <!-- client testimonials end -->
 
     <!-- blog section start -->
-    <livewire:blog-section />
+    {{-- <livewire:blog-section /> --}}
     <!-- blog section end -->
 </div>

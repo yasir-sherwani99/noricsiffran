@@ -184,6 +184,17 @@ body{
     padding-left: 0px;
 }
 
+.lang-dropdown span {
+	text-transform: uppercase;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
 .btn-default{
 	display: inline-block;
 	font-size: 16px;
@@ -191,7 +202,7 @@ body{
 	line-height: 1.2em;
 	color: var(--white-color);
 	background: var(--accent-color);
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	padding: 15px 55px 15px 15px;
 	border-radius: 8px;
 	border: none;
@@ -454,6 +465,10 @@ header.main-header{
 	margin: 0;
 }
 
+.navbar-brand span{
+	font-size: 20px;
+}
+
 .main-menu .nav-menu-wrapper{
 	flex: 1;
 	text-align: center;
@@ -668,7 +683,7 @@ header.main-header{
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	margin-right: 10px;
 }
 
@@ -3072,6 +3087,10 @@ header.main-header{
     .header-btn .btn-default{
         display: none;
     }
+
+	.header-btn .lang-dropdown {
+		display: none;
+	}
 
 	.light-bg-section{
 		width: 100%;
