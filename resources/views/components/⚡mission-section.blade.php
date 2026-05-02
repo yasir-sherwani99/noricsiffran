@@ -34,7 +34,7 @@ new class extends Component
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-why-choose-1.svg') }}" alt="Norricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-why-choose-1.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="why-choose-body">
                         <h3>{{ __('home.choose_subtitle_1') }}</h3>
@@ -48,7 +48,7 @@ new class extends Component
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-why-choose-2.svg') }}" alt="Norricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-why-choose-2.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="why-choose-body">
                         <h3>{{ __('home.choose_subtitle_2') }}</h3>
@@ -62,7 +62,7 @@ new class extends Component
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-why-choose-3.svg') }}" alt="Norricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-why-choose-3.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="why-choose-body">
                         <h3>{{ __('home.choose_subtitle_3') }}</h3>

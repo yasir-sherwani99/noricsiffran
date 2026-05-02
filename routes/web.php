@@ -72,3 +72,7 @@ Route::group(['prefix' => '{locale}', 'where' => ['locale' => 'sv|en']], functio
 Route::get('/', function () {
     return redirect('/sv');
 });
+
+Route::fallback(function () {
+    abort(404);
+});

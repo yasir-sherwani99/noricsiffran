@@ -40,7 +40,7 @@ new class extends Component
                                     <div class="testimonial-header">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ Vite::asset('resources/images/author-1.jpg') }}" alt="Noricsiffran" />
+                                                <img src="{{ Vite::asset('resources/images/author-1.jpg') }}" alt="Nordicsiffran" />
                                             </figure>
                                         </div>
                                         <div class="author-content">
@@ -61,7 +61,7 @@ new class extends Component
                                     <div class="testimonial-header">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ Vite::asset('resources/images/author-2.jpg') }}" alt="Noricsiffran" />
+                                                <img src="{{ Vite::asset('resources/images/author-2.jpg') }}" alt="Nordicsiffran" />
                                             </figure>
                                         </div>
                                         <div class="author-content">
@@ -82,7 +82,7 @@ new class extends Component
                                     <div class="testimonial-header">
                                         <div class="author-image">
                                             <figure class="image-anime">
-                                                <img src="{{ Vite::asset('resources/images/author-3.jpg') }}" alt="Noricsiffran" />
+                                                <img src="{{ Vite::asset('resources/images/author-3.jpg') }}" alt="Nordicsiffran" />
                                             </figure>
                                         </div>
                                         <div class="author-content">

@@ -13,7 +13,7 @@ new class extends Component
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="employee-image">
-                    <img src="{{ Vite::asset('resources/images/employee-img.png') }}" alt="Noricsiffran" />
+                    <img src="{{ Vite::asset('resources/images/new/employee-img.png') }}" alt="Nordicsiffran" />
                 </div>
             </div>
 

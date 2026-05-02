@@ -9,9 +9,12 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title>Wexico - Accounting & Finance HTML Template</title>
+	<title>Nordicsiffran</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicons/favicon.ico') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicons/apple-icon-57x57.png') }}" />
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +30,7 @@
 	@include('partials.loader')
 	<!-- Preloader End -->
     <!-- Magic Cursor Start -->
-	@include('partials.magic_cursor')
+	{{-- @include('partials.magic_cursor') --}}
 	<!-- Magic Cursor End -->
     <!-- Header Start -->
 	@include('partials.header')

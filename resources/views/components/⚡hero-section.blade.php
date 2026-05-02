@@ -30,8 +30,8 @@ new class extends Component
                     </div>
 
                     <div class="hero-content-footer wow fadeInUp" data-wow-delay="0.75s">
-                        <a href="#" class="btn-default">{{ __('buttons.work_with_us') }}</a>
-                        <a href="#" class="btn-default btn-highlighted">{{ __('buttons.view_our_services') }}</a>
+                        <a href="{{ route('contact') }}" class="btn-default">{{ __('buttons.work_with_us') }}</a>
+                        <a href="{{ route('services') }}" class="btn-default btn-highlighted">{{ __('buttons.view_our_services') }}</a>
                     </div>
                 </div>
                 <!-- Hero Left Content End -->
@@ -41,7 +41,7 @@ new class extends Component
                 <!-- Hero Image Start -->
                 <div class="hero-image">
                     <figure>
-                        <img src="{{ Vite::asset('resources/images/hero-img.png') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/new/home_img_1.jpg') }}" alt="Nordicsiffran" />
                     </figure>                            
                 </div>
                 <!-- Hero Image End -->

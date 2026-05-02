@@ -8,7 +8,8 @@
                         <div class="col-lg-4">
                             <!-- Footer Logo Start -->
                             <div class="footer-logo">
-                                <img src="{{ Vite::asset('resources/images/footer-logo.svg') }}" alt="Noricsiffran" />
+                                <img src="{{ Vite::asset('resources/images/loader-N-4.svg') }}" alt="Nordicsiffran" style="width: 38px; 39px;" /> 
+                                ordicsiffran
                             </div>
                             <!-- Footer Logo End -->
                         </div>
@@ -37,10 +38,10 @@
                                     <div class="footer-links">
                                         <h2>{{ __('messages.quick_links') }}</h2>
                                         <ul>
-                                            <li><a href="#">{{ __('buttons.about_us') }}</a></li>
-                                            <li><a href="#">{{ __('buttons.services') }}</a></li>
-                                            <li><a href="#">{{ __('buttons.automation') }}</a></li>
-                                            <li><a href="#">{{ __('buttons.contact_us') }}</a></li>
+                                            <li><a href="{{ route('about') }}">{{ __('buttons.about_us') }}</a></li>
+                                            <li><a href="{{ route('services') }}">{{ __('buttons.services') }}</a></li>
+                                            <li><a href="{{ route('automation') }}">{{ __('buttons.automation') }}</a></li>
+                                            <li><a href="{{ route('contact') }}">{{ __('buttons.contact_us') }}</a></li>
                                         </ul>
                                     </div>
                                     <!-- Footer Links End -->
@@ -65,8 +66,8 @@
                                     <div class="footer-contact">
                                         <h2>{{ __('messages.say_hello') }}</h2>
                                         <ul>
-                                            <li><a href="#">info@domainname.com</a></li>
-                                            <li><a href="#">(+0) 123 456 789</a></li>
+                                            <li><a href="#">norvia.moneta.finans@hotmail.com</a></li>
+                                            <li><a href="#">(+46) 70 775 07 02</a></li>
                                         </ul>
                                     </div>
                                     <!-- Footer Contact End -->
@@ -83,7 +84,7 @@
                         <div class="col-lg-12">
                             <!-- Footer Copyright Content Start -->
                             <div class="footer-copyright-text">
-                                <p>{{ __('messages.copyright') }} © {{ date('Y') }} noricsiffran. {{ __('messages.rights') }}.</p>
+                                <p>{{ __('messages.copyright') }} © {{ date('Y') }} nordicsiffran. {{ __('messages.rights') }}.</p>
                             </div>
                             <!-- Footer Copyright Content End -->
                         </div>

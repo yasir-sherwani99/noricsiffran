@@ -14,7 +14,7 @@ new class extends Component
             <!-- Summary Image Start -->
             <div class="customer-benefit-image">
                 <figure class="image-anime reveal">
-                    <img src="{{ Vite::asset('resources/images/customer-benefit-img.jpg') }}" alt="Noricsiffran" />
+                    <img src="{{ Vite::asset('resources/images/customer-benefit-img.jpg') }}" alt="Nordicsiffran" />
                 </figure>
             </div>
             <!-- Summary Image End -->

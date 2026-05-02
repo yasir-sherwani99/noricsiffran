@@ -3,6 +3,7 @@
 use Livewire\Component;
 
 use App\Models\Inquiry;
+use App\Mail\ContactFormMail;
 
 new class extends Component
 {
@@ -23,6 +24,10 @@ new class extends Component
         ]);
 
         Inquiry::create($validated);
+
+        Mail::to('yasirsherwani@hotmail.com')->send(
+            new ContactFormMail($validated)
+        );
 
         $this->reset();
 

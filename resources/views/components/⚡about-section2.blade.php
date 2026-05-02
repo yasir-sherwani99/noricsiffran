@@ -17,7 +17,7 @@ new class extends Component
                     <!-- About Image Start -->
                     <div class="about-img-1">
                         <figure class="image-anime reveal">
-                            <img src="{{ Vite::asset('resources/images/page-about-1.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/page-about-1.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -25,7 +25,7 @@ new class extends Component
                     <!-- About Image Start -->
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="{{ Vite::asset('resources/images/page-about-2.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/page-about-2.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -33,7 +33,7 @@ new class extends Component
                     <!-- Satisfied Client Start -->
                     <div class="satisfied-client">
                         <div class="satisfied-client-icon">
-                            <img src="{{ Vite::asset('resources/images/icon-satisfied-client.svg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/icon-satisfied-client.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="satisfied-client-content">
                             <h3><span class="counter">1500</span>+</h3>
@@ -66,7 +66,7 @@ new class extends Component
                         <!-- About Company Service Start -->
                         <div class="about-company-service wow fadeInUp" data-wow-delay="0.5s">
                             <div class="icon-box">
-                                <img src="{{ Vite::asset('resources/images/icon-company-service-1.svg') }}" alt="Noricsiffran" />
+                                <img src="{{ Vite::asset('resources/images/icon-company-service-1.svg') }}" alt="Nordicsiffran" />
                             </div>
                             <div class="company-service-content">
                                 {{-- <h3>best quality services</h3> --}}
@@ -78,7 +78,7 @@ new class extends Component
                         <!-- About Company Service Start -->
                         <div class="about-company-service wow fadeInUp" data-wow-delay="0.75s">
                             <div class="icon-box">
-                                <img src="{{ Vite::asset('resources/images/icon-company-service-2.svg') }}" alt="Noricsiffran" />
+                                <img src="{{ Vite::asset('resources/images/icon-company-service-2.svg') }}" alt="Nordicsiffran" />
                             </div>
                             <div class="company-service-content">
                                 {{-- <h3>professional agents</h3> --}}

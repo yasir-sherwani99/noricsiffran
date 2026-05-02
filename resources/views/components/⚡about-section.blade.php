@@ -36,7 +36,7 @@ new class extends Component
                     <!-- About Image Start -->
                     <div class="about-image">
                         <figure class="image-anime reveal">
-                            <img src="{{ Vite::asset('resources/images/about-us-img.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/about-img-banner.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -44,7 +44,12 @@ new class extends Component
                     <!-- About Video Btn Start -->
                     <div class="about-video-btn">
                         <div class="icon-box">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i>{{ __('buttons.play_video') }}</a>
+                            <a 
+                                href="{{ asset('assets/videos/20260323_0019_New Video_simple_compose_01kmbxhtmwe02v3dmsy8p6t1z1.mp4') }}" 
+                                class="popup-video"
+                            >
+                                <i class="fa-solid fa-play"></i>{{ __('buttons.play_video') }}
+                            </a>
                         </div>
                     </div>
                     <!-- About Video Btn End -->
@@ -58,7 +63,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-1.svg') }}" alt="Noricsiffran">
+                        <img src="{{ Vite::asset('resources/images/icon-about-company-1.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_1') }}</p>
@@ -71,7 +76,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-2.svg') }}" alt="Noricsiffran">
+                        <img src="{{ Vite::asset('resources/images/icon-about-company-2.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_2') }}</p>
@@ -84,7 +89,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-3.svg') }}" alt="Noricsiffran">
+                        <img src="{{ Vite::asset('resources/images/icon-about-company-3.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_3') }}</p>

@@ -7,7 +7,7 @@
         <?php
             $fflag = $languages[$currentLocale]['flag'];
         ?>
-            <img src="{{ Vite::asset('resources/images/flags/4x3/' . $fflag . '.svg') }}" class="flag-icon me-2" alt="Noricsiffran" />
+            <img src="{{ Vite::asset('resources/images/flags/4x3/' . $fflag . '.svg') }}" class="flag-icon me-2" alt="Nordicsiffran" />
             <span>{{ $languages[$currentLocale]['code'] }}</span>
     </button>
 

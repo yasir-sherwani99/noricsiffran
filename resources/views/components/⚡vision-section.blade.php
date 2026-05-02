@@ -14,7 +14,7 @@ new class extends Component
             <div class="col-lg-6">
                 <!-- Company Planning Image Start -->
                 <div class="company-planning-image wow fadeInUp">
-                    <img src="{{ Vite::asset('resources/images/company-planning-img.png') }}" alt="Noricsiffran" />
+                    <img src="{{ Vite::asset('resources/images/new/company-planning-img.png') }}" alt="Nordicsiffran" />
                 </div>
                 <!-- Company Planning Image End -->
             </div>

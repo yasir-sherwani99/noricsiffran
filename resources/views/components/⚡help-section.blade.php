@@ -35,7 +35,7 @@ new class extends Component
                 <!-- We Help Box Start -->
                 <div class="we-help-box wow fadeInUp">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-help-1.svg') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-help-1.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="we-help-title">
                         <h3>nonprofit organizations</h3>
@@ -46,7 +46,7 @@ new class extends Component
                 <!-- We Help Box Start -->
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-help-2.svg') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-help-2.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="we-help-title">
                         <h3>freelancers and contractors</h3>
@@ -57,7 +57,7 @@ new class extends Component
                 <!-- We Help Box Start -->
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-help-3.svg') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-help-3.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="we-help-title">
                         <h3>limited companies</h3>
@@ -68,7 +68,7 @@ new class extends Component
                 <!-- We Help Box Start -->
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-help-4.svg') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-help-4.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="we-help-title">
                         <h3>limited liability partnerships</h3>
@@ -79,7 +79,7 @@ new class extends Component
                 <!-- We Help Box Start -->
                 <div class="we-help-box wow fadeInUp" data-wow-delay="1s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-help-5.svg') }}" alt="Noricsiffran" />
+                        <img src="{{ Vite::asset('resources/images/icon-help-5.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="we-help-title">
                         <h3>professional service firms</h3>

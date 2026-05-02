@@ -45,7 +45,7 @@ new class extends Component
                         <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                             <div class="service-image">
                                 <figure class="image-anime">
-                                    <a href="#"><img src="{{ Vite::asset('resources/images/service-img-1.jpg') }}" alt="Noricsiffran" /></a>
+                                    <a href="#"><img src="{{ Vite::asset('resources/images/new/' . $service['image']) }}" alt="Nordicsiffran" /></a>
                                 </figure>
                             </div>
                             <div class="service-content">
@@ -67,7 +67,7 @@ new class extends Component
                         <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                             <div class="service-image">
                                 <figure class="image-anime">
-                                    <a href="#"><img src="{{ Vite::asset('resources/images/service-img-1.jpg') }}" alt="Noricsiffran"></a>
+                                    <a href="#"><img src="{{ Vite::asset('resources/images/new/' . $service['image']) }}" alt="Nordicsiffran"></a>
                                 </figure>
                             </div>
                             <div class="service-content">

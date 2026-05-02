@@ -41,7 +41,7 @@ new class extends Component
                     <!-- Counter Box Image Start -->
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="0.25s">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/counter-img-1.jpg') }}" alt="Noricsiffran">
+                            <img src="{{ Vite::asset('resources/images/counter-img-1.jpg') }}" alt="Nordicsiffran">
                         </figure>
                     </div>
                     <!-- Counter Box Image End -->
@@ -62,7 +62,7 @@ new class extends Component
                     <!-- Counter Box Image Start -->
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="0.75s">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/counter-img-2.jpg') }}" alt="Noricsiffran">
+                            <img src="{{ Vite::asset('resources/images/counter-img-2.jpg') }}" alt="Nordicsiffran">
                         </figure>
                     </div>
                     <!-- Counter Box Image End -->
@@ -79,7 +79,7 @@ new class extends Component
                     <!-- Counter Box Image Start -->
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="1.25s">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/counter-img-3.jpg') }}" alt="Noricsiffran">
+                            <img src="{{ Vite::asset('resources/images/counter-img-3.jpg') }}" alt="Nordicsiffran">
                         </figure>
                     </div>
                     <!-- Counter Box Image End -->

@@ -15,13 +15,13 @@ new class extends Component
                 <div class="contact-info-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="contact-image">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/location-img.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/address-img.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     
                     <div class="contact-info-box">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-location.svg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/icon-location.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="contact-info-content">
                             <p>{{ __('messages.contact_location') }}</p>
@@ -36,7 +36,7 @@ new class extends Component
                     <!-- Contact Image Start -->
                     <div class="contact-image">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/email-img.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/email-img.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- Contact Image End -->
@@ -44,7 +44,7 @@ new class extends Component
                     <!-- Contact Info Box Start -->
                     <div class="contact-info-box">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-email.svg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/icon-email.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="contact-info-content">
                             <p><a href="#">norvia.moneta.finans@hotmail.com</a></p>
@@ -61,7 +61,7 @@ new class extends Component
                     <!-- Contact Image Start -->
                     <div class="contact-image">
                         <figure class="image-anime">
-                            <img src="{{ Vite::asset('resources/images/phone-img.jpg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/new/phone-img.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- Contact Image End -->
@@ -69,7 +69,7 @@ new class extends Component
                     <!-- Contact Info Box Start -->
                     <div class="contact-info-box">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-phone.svg') }}" alt="Noricsiffran" />
+                            <img src="{{ Vite::asset('resources/images/icon-phone.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="contact-info-content">
                             <p><a href="#">(+46) 70 775 07 02</a></p>
