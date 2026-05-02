@@ -10,6 +10,7 @@ use App\Livewire\Pricing;
 use App\Livewire\ServiceDetails;
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,6 +48,15 @@ Route::get('lang/{locale}', function ($locale) {
     
     return redirect($newUrl);
 })->name('language.switch');
+
+Route::get('/clear-all', function () {
+    Artisan::call('config:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('view:clear');
+    Artisan::call('route:clear');
+
+    return "Application caches cleared!";
+});
 
 /*
 |--------------------------------------------------------------------------

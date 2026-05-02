@@ -41,7 +41,7 @@ new class extends Component
                 <!-- Hero Image Start -->
                 <div class="hero-image">
                     <figure>
-                        <img src="{{ Vite::asset('resources/images/new/home_img_1.jpg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/new/home_img_1.jpg') }}" alt="Nordicsiffran" />
                     </figure>                            
                 </div>
                 <!-- Hero Image End -->

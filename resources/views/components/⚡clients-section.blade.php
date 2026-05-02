@@ -35,43 +35,43 @@ new class extends Component
                 <div class="client-logo wow fadeInUp" data-wow-delay="0.5s">
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-1.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-1.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-2.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-2.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-3.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-3.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-4.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-4.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-5.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-5.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-6.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-6.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
 
                     <!-- client Item Start -->
                     <div class="client-item">
-                        <img src="{{ Vite::asset('resources/images/icon-client-logo-7.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-client-logo-7.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <!-- client Item End -->
                 </div>

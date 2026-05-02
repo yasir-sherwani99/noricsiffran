@@ -36,7 +36,7 @@ new class extends Component
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="{{ Vite::asset('resources/images/post-1.jpg') }}" alt="Nordicsiffran" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/post-1.jpg') }}" alt="Nordicsiffran" /></a>
                         </figure>
                     </div>
                     <!-- Post Featured Image End -->
@@ -63,7 +63,7 @@ new class extends Component
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="{{ Vite::asset('resources/images/post-2.jpg') }}" alt="Nordicsiffran" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/post-2.jpg') }}" alt="Nordicsiffran" /></a>
                         </figure>
                     </div>
                     <!-- Post Featured Image End -->
@@ -90,7 +90,7 @@ new class extends Component
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="{{ Vite::asset('resources/images/post-3.jpg') }}" alt="Nordicsiffran" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/post-3.jpg') }}" alt="Nordicsiffran" /></a>
                         </figure>
                     </div>
                     <!-- Post Featured Image End -->

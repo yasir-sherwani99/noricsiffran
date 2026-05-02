@@ -7,7 +7,7 @@
         <?php
             $fflag = $languages[$currentLocale]['flag'];
         ?>
-            <img src="{{ Vite::asset('resources/images/flags/4x3/' . $fflag . '.svg') }}" class="flag-icon me-2" alt="Nordicsiffran" />
+            <img src="{{ asset('assets/images/flags/4x3/' . $fflag . '.svg') }}" class="flag-icon me-2" alt="Nordicsiffran" />
             <span>{{ $languages[$currentLocale]['code'] }}</span>
     </button>
 
@@ -21,7 +21,7 @@
                     href="{{ route('language.switch', ['locale' => $code]) }}" 
                     class="dropdown-item"
                 >
-                    <img src="{{ Vite::asset('resources/images/flags/4x3/' . $flag . '.svg') }}" class="flag-icon me-2" />
+                    <img src="{{ asset('assets/images/flags/4x3/' . $flag . '.svg') }}" class="flag-icon me-2" />
                     {{ $language['name'] }}
                 </a>
             </li>

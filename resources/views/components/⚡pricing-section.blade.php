@@ -36,7 +36,7 @@ new class extends Component
                     <!-- Pricing Header Start -->
                     <div class="pricing-header">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-pricing-1.svg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/icon-pricing-1.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="pricing-content">
                             <h3>{{ __('pricing.package_small') }}</h3>
@@ -68,7 +68,7 @@ new class extends Component
                     <!-- Pricing Header Start -->
                     <div class="pricing-header">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-pricing-2.svg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/icon-pricing-2.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="pricing-content">
                             <h3>{{ __('pricing.package_medium') }}</h3>
@@ -100,7 +100,7 @@ new class extends Component
                     <!-- Pricing Header Start -->
                     <div class="pricing-header">
                         <div class="icon-box">
-                            <img src="{{ Vite::asset('resources/images/icon-pricing-3.svg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/icon-pricing-3.svg') }}" alt="Nordicsiffran" />
                         </div>
                         <div class="pricing-content">
                             <h3>{{ __('pricing.package_large') }}</h3>

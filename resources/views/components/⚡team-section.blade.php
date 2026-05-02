@@ -36,7 +36,7 @@ new class extends Component
                     <!-- Team Img Start -->
                     <div class="team-image">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/team-1.jpg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/team-1.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- Team Img End -->
@@ -67,7 +67,7 @@ new class extends Component
                     <!-- Team Img Start -->
                     <div class="team-image">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/team-2.jpg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/team-2.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- Team Img End -->
@@ -98,7 +98,7 @@ new class extends Component
                     <!-- Team Img Start -->
                     <div class="team-image">
                         <figure class="image-anime"> 
-                            <img src="{{ Vite::asset('resources/images/team-3.jpg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/team-3.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- Team Img End -->

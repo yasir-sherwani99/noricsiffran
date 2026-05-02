@@ -8,7 +8,7 @@
                         <div class="col-lg-4">
                             <!-- Footer Logo Start -->
                             <div class="footer-logo">
-                                <img src="{{ Vite::asset('resources/images/loader-N-4.svg') }}" alt="Nordicsiffran" style="width: 38px; 39px;" /> 
+                                <img src="{{ asset('assets/images/loader-N-4.svg') }}" alt="Nordicsiffran" style="width: 38px; 39px;" /> 
                                 ordicsiffran
                             </div>
                             <!-- Footer Logo End -->

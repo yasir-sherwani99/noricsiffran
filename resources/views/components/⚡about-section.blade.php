@@ -36,7 +36,7 @@ new class extends Component
                     <!-- About Image Start -->
                     <div class="about-image">
                         <figure class="image-anime reveal">
-                            <img src="{{ Vite::asset('resources/images/new/about-img-banner.jpg') }}" alt="Nordicsiffran" />
+                            <img src="{{ asset('assets/images/new/about-img-banner.jpg') }}" alt="Nordicsiffran" />
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -63,7 +63,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-1.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-about-company-1.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_1') }}</p>
@@ -76,7 +76,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-2.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-about-company-2.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_2') }}</p>
@@ -89,7 +89,7 @@ new class extends Component
                 <!-- About Company Item Start -->
                 <div class="about-company-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ Vite::asset('resources/images/icon-about-company-3.svg') }}" alt="Nordicsiffran" />
+                        <img src="{{ asset('assets/images/icon-about-company-3.svg') }}" alt="Nordicsiffran" />
                     </div>
                     <div class="about-company-content">
                         <p>{{ __('services.content_3') }}</p>

@@ -12,7 +12,7 @@ new class extends Component
     <!-- Sidebar Cta Image Start -->
     <div class="sidebar-cta-image">
         <figure class="image-anime">
-            <img src="{{ Vite::asset('resources/images/service-cta-bg.jpg') }}" alt="Nordicsiffran" />
+            <img src="{{ asset('assets/images/service-cta-bg.jpg') }}" alt="Nordicsiffran" />
         </figure>
     </div>
     <!-- Sidebar Cta Image End -->

@@ -4,7 +4,7 @@
             <div class="container">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="/">
-                    <img src="{{ Vite::asset('resources/images/loader-N-3.svg') }}" alt="Nordicsiffran" style="width: 38px; 39px;" />
+                    <img src="{{ asset('assets/images/loader-N-3.svg') }}" alt="Nordicsiffran" style="width: 38px; 39px;" />
                     ordicsiffran
                 </a>
                 <!-- Logo End -->
