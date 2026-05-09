@@ -5,11 +5,20 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="description" content="{{ __('messages.page_description') }}" />
+	<meta name="keywords" content="{{ __('messages.page_keywords') }}" />
+    <meta name="robots" content="index, follow">
+	<meta name="author" content="Nordicsiffran" />
+    <link rel="canonical" href="https://nordicsiffran.se/sv">
 	<!-- Page Title -->
-	<title>Nordicsiffran</title>
+	<title>{{ __('messages.page_title') . ' | ' . 'Nordicsiffran' }}</title>
+    <!-- Meta Tage for Open Graph -->
+    <meta property="og:title" content="{{ __('messages.page_title') . ' | ' . 'Nordicsiffran' }}">
+    <meta property="og:description" content="{{ __('messages.page_description') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nordicsiffran.se/sv"> 
+    <link rel="alternate" hreflang="en" href="https://nordicsiffran.se/en">
+    <link rel="alternate" hreflang="sv" href="https://nordicsiffran.se/sv">
 	<!-- Favicon Icon -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}" />

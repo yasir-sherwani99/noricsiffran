@@ -55,7 +55,7 @@ new class extends Component
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
+                        <a href="{{ route('pricing') }}" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>
@@ -87,7 +87,7 @@ new class extends Component
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
+                        <a href="{{ route('pricing') }}" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>
@@ -119,7 +119,7 @@ new class extends Component
 
                     <!-- Pricing Footer Start -->
                     <div class="pricing-footer">
-                        <a href="#" class="btn-default">{{ __('buttons.see_all_features') }}</a>
+                        <a href="{{ route('pricing') }}" class="btn-default">{{ __('buttons.see_all_features') }}</a>
                     </div>
                     <!-- Pricing Footer End -->
                 </div>

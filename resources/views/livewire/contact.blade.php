@@ -16,6 +16,3 @@
     <!-- location map section end -->
 </div>
 
-@push('scripts')
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-@endpush

@@ -16,4 +16,6 @@ return [
     'cta_title' => 'Letar du efter en premiumredovisning för ditt företa',
     'employee_title' => 'Proaktivt stöd när du behöver det',
     'employee_text' => 'Vi finns tillgängliga och arbetar framåtblickande, så att du alltid har rätt stöd i rätt tid. Som företagare är tiden en av dina viktigaste resurser. Vi tar hand om det administrativa så att du kan fokusera på din kärnverksamhet. Med moderna system och automatiserade flöden hanteras fakturor, kvitton och bankhändelser effektivt och strukturerat. Du får tillgång till tydliga rapporter och aktuell ekonomisk information, vilket gör det enklare att fatta rätt beslut i rätt tid. Resultatet är en enklare vardag, bättre kontroll och mer tid att utveckla ditt företag.',
+    'successful_audits' => 'Framgångsrika revisioner',
+    'on-time_filing_rate' => 'Andel inlämningar i tid',
 ];

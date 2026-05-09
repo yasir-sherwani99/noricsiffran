@@ -13,7 +13,7 @@ new class extends Component
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="employee-image">
-                    <img src="{{ Vite::asset('resources/images/new/employee-img.png') }}" alt="Nordicsiffran" />
+                    <img src="{{ asset('assets/images/new/employee-img.png') }}" alt="Nordicsiffran" />
                 </div>
             </div>
 
@@ -38,14 +38,14 @@ new class extends Component
                         <!-- Employee Counter Box Start -->
                         <div class="employee-counter-box">
                             <h3><span class="counter">500</span>+</h3>
-                            <p>successful audits</p>
+                            <p>{{ __('home.successful_audits') }}</p>
                         </div>
                         <!-- Employee Counter Box End -->
 
                         <!-- Employee Counter Box Start -->
                         <div class="employee-counter-box">
                             <h3><span class="counter">98</span>%</h3>
-                            <p>on-time filing rate</p>
+                            <p>{{ __('home.on-time_filing_rate') }}</p>
                         </div>
                         <!-- Employee Counter Box End -->
                     </div>

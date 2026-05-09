@@ -1,6 +1,9 @@
 <?php 
 
 return [
+    'page_title' => 'Din Redovisningspartner i Sverige | Bokföring & Ekonomitjänster',
+    'page_description' => 'Professionell bokföring, lönehantering, moms och redovisningstjänster för företag och entreprenörer.',
+    'page_keywords' => 'redovisningsbyrå Sverige, bokföring Sverige, lönehantering, momsredovisning, ekonomitjänster Sverige',
     'about_section' => 'om oss',
     'about_title' => 'Din betrodda partner inom redovisningslösningar',
     'about_text' => 'Fokus på enkelhet och effektivitet Vår ambition är att göra redovisningen så enkel som möjligt genom digitala lösningar och smarta arbetssätt. Genom automatisering och tydliga processer sparar du tid och kan fokusera på att utveckla din verksamhet.',

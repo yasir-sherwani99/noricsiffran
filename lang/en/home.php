@@ -16,4 +16,6 @@ return [
     'cta_title' => 'Looking for a premium accounting for your business?',
     'employee_title' => 'Proactive support when you need it',
     'employee_text' => 'We are available and work proactively, ensuring you always have the right support at the right time. As a business owner, time is one of your most valuable resources. We take care of the administrative work so you can focus on your core business. With modern systems and automated processes, invoices, receipts and bank transactions are handled efficiently and in a structured way. You get access to clear reports and up-to-date financial information, making it easier to make the right decisions at the right time. The result is a simpler everyday life, better control and more time to develop your business.',
+    'successful_audits' => 'Successful Audits',
+    'on-time_filing_rate' => 'On time Filing Rate',
 ];

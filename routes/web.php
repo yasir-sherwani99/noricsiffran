@@ -14,6 +14,42 @@ use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
+| Cache Clear
+|--------------------------------------------------------------------------
+*/
+Route::get('/clear-all', function () {
+    Artisan::call('optimize:clear');
+    
+    return "Application caches cleared!";
+});
+
+/*
+|--------------------------------------------------------------------------
+| Sitemap
+|--------------------------------------------------------------------------
+*/
+Route::get('/sitemap.xml', function () {
+
+    $locales = ['en', 'sv'];
+
+    $pages = [
+        '/',
+        '/about',
+        '/services',
+        '/automation',
+        '/pricing',
+        '/faqs',
+        '/contact',
+    ];
+
+    return response()->view('sitemap', [
+        'pages' => $pages,
+        'locales' => $locales
+    ])->header('Content-Type', 'text/xml');
+});
+
+/*
+|--------------------------------------------------------------------------
 | Language Switch Route
 |--------------------------------------------------------------------------
 */
@@ -49,15 +85,6 @@ Route::get('lang/{locale}', function ($locale) {
     return redirect($newUrl);
 })->name('language.switch');
 
-Route::get('/clear-all', function () {
-    Artisan::call('config:clear');
-    Artisan::call('cache:clear');
-    Artisan::call('view:clear');
-    Artisan::call('route:clear');
-
-    return "Application caches cleared!";
-});
-
 /*
 |--------------------------------------------------------------------------
 | Main Routes with Language Prefix
@@ -83,6 +110,11 @@ Route::get('/', function () {
     return redirect('/sv');
 });
 
+/*
+|--------------------------------------------------------------------------
+| 404
+|--------------------------------------------------------------------------
+*/
 Route::fallback(function () {
     abort(404);
 });

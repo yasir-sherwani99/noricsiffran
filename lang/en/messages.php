@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'page_title' => 'Your Accounting Partner in Sweden | Bookkeeping & Financial Services',
+    'page_description' => 'Professional accounting, bookkeeping, payroll, VAT and tax services for startups, companies and entrepreneurs.',
+    'page_keywords' => 'accounting firm Sweden, bookkeeping Sweden, payroll services Sweden, VAT services Sweden, accounting company Stockholm',
     'about_section' => 'about us',
     'about_title' => 'Your trusted partner in accounting solutions',
     'about_text' => 'Focus on simplicity and efficiency, Our ambition is to make accounting as simple as possible through digital solutions and smart working methods. Through automation and clear processes, you save time and can focus on developing your business.',
