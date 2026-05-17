@@ -51,7 +51,7 @@ new class extends Component
                             <div class="service-content">
                                 <h3>{{ __($service['name']) }}</h3>
                                 <div class="service-readmore-btn">
-                                    <a href="#" class="btn-default">{{ __('buttons.read_more') }}</a>
+                                    <a href="{{ route('service.details', $service['slug']) }}" class="btn-default">{{ __('buttons.read_more') }}</a>
                                 </div>
                             </div>
                         </div>

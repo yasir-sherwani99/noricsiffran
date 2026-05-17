@@ -31,29 +31,34 @@ new class extends Component
         ];
     }
 
-    // Custom validation messages
-    protected $messages = [
-        'first_name.required' => 'Please enter your first name.',
-        'first_name.min' => 'First name must be at least 1 characters.',
-        'first_name.max' => 'First name must be at most 50 characters.',
-        'last_name.required' => 'Please enter your last name.',
-        'last_name.min' => 'Last name must be at least 1 characters.',
-        'last_name.max' => 'Last name must be at most 50 characters.',
-        'email.required' => 'Email address is required.',
-        'email.email' => 'Please enter a valid email address.',
-        'message.required' => 'Message cannot be empty.',
-        'message.min' => 'Message must be at least 10 characters.',
-        'message.max' => 'Message must be at most 5000 characters.',
-        'recaptchaToken.required' => 'Please verify that you are not a robot.',
-        // 'terms.accepted' => 'You must accept the terms and conditions.',
-    ];
+    public function messages(): array
+    {
+        return [
+            'first_name.required' => __('validation.custom.first_name.required'),
+            'first_name.min' => __('validation.custom.first_name.min'),
+            'first_name.max' => __('validation.custom.first_name.max'),
+            'last_name.required' => __('validation.custom.last_name.required'),
+            'last_name.min' => __('validation.custom.last_name.min'),
+            'last_name.max' => __('validation.custom.last_name.max'),
+            'email.required' => __('validation.custom.email.required'),
+            'email.valid' => __('validation.custom.email.valid'),
+            'message.required' => __('validation.custom.message.required'),
+            'message.min' => __('validation.custom.message.min'),
+            'message.max' => __('validation.custom.message.max'),
+            'recaptchaToken.required' => __('validation.custom.recaptcha.token'),
+            // 'terms.accepted' => 'You must accept the terms and conditions.',
+        ];
+    }
+
+    // Real-time validation (optional)
+    public function updated($propertyName)
+    {
+        $this->validateOnly($propertyName);
+    }
 
     public function submit()
     {
         $validatedData = $this->validate();
-        
-        // Log the token for debugging
-        Log::info('reCAPTCHA Token received', ['token' => $this->recaptchaToken]);
         
         // Verify with Google
         $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
@@ -64,10 +69,7 @@ new class extends Component
 
         $result = $response->json();
 
-         // Log the response for debugging
-        Log::info('reCAPTCHA Response', ['response' => $result]);
-        
-         // Detailed error checking
+        // Detailed error checking
         if (!$result['success']) {
             $errorCodes = $result['error-codes'] ?? [];
             $errorMessage = 'reCAPTCHA verification failed. ';
@@ -103,40 +105,34 @@ new class extends Component
 
         Inquiry::create($validatedData);
         
-        // Mail::to('yasirsherwani@hotmail.com')->send(
-        //     new ContactFormMail($validatedData)
-        // );
-         // Send email with try-catch
-            try {
-                Mail::to('yasirsherwani@hotmail.com')->send(
-                    new ContactFormMail($validatedData)
-                );
-                
-                // Log success
-                Log::info('Contact form email sent successfully', ['email' => $this->email]);
-                
-                // Reset form on success
-                $this->reset();
-                
-                // Reset reCAPTCHA widget
-                $this->dispatch('recaptcha-reset');
-                
-                // Show success message
-                session()->flash('success', __('messages.success_msg'));
-                
-            } catch (\Exception $e) {
-                // Log the error for debugging
-                Log::error('Failed to send contact form email: ' . $e->getMessage());
-                Log::error('Email error details: ' . $e->getTraceAsString());
-                
-                // Show user-friendly error message
-                session()->flash('error', 'Sorry, we could not send your message at this time. Please try again later.');
-                $this->addError('email', 'Failed to send message. Please try again.');
-            }
-
-       // $this->reset();
-
-       // session()->flash('success', __('messages.success_msg'));
+        // Send email with try-catch
+        try {
+            
+            Mail::to('yasirsherwani@hotmail.com')->send(
+                new ContactFormMail($validatedData)
+            );
+            
+            // Log success
+            // Log::info('Contact form email sent successfully', ['email' => $this->email]);
+            
+        } catch (\Exception $e) {
+            // Log the error for debugging
+            // Log::error('Failed to send contact form email: ' . $e->getMessage());
+            // Log::error('Email error details: ' . $e->getTraceAsString());
+            
+            // Show user-friendly error message
+            // session()->flash('error', 'Sorry, we could not send your message at this time. Please try again later.');
+            // $this->addError('email', 'Failed to send message. Please try again.');
+        }
+        
+        // Reset form on success
+        $this->reset();
+            
+        // Reset reCAPTCHA widget
+        $this->dispatch('recaptcha-reset');
+        
+        // Show success message
+        session()->flash('success', __('messages.success_msg'));
     }
 };
 ?>
@@ -165,12 +161,6 @@ new class extends Component
         <div class="row">
             <div class="col-lg-12">
                  @if (session()->has('success'))
-                    <div class="alert alert-success" role="alert">
-                        <i class="fa-solid fa-check-double me-2"></i>
-                        {{ session('success') }}
-                    </div>
-                @endif
-                @if (session()->has('success'))
                     <div class="alert alert-success" role="alert">
                         <i class="fa-solid fa-check-double me-2"></i>
                         {{ session('success') }}

@@ -8,32 +8,32 @@ class Services extends Component
 {
     public array $services = [
         [
-            'slug' => 'service-1',
+            'slug' => 'bookkeeping-and-ongoing-accounting',
             'name' => 'services.our_services_1',
             'image' => 'service-img-1.jpg'
         ],
         [
-            'slug' => 'service-2',
+            'slug' => 'banking-and-payment-flows',
             'name' => 'services.our_services_2',
             'image' => 'service-img-2.jpg'
         ],
         [
-            'slug' => 'service-3',
+            'slug' => 'invoicing-and-customer-flows',
             'name' => 'services.our_services_3',
             'image' => 'service-img-3.jpg'
         ],
         [
-            'slug' => 'service-4',
+            'slug' => 'tax-and-declarations',
             'name' => 'services.our_services_4',
             'image' => 'service-img-4.jpg'
         ],
         [
-            'slug' => 'service-5',
+            'slug' => 'year-end-closing-and-annual-reports',
             'name' => 'services.our_services_5',
             'image' => 'service-img-5.jpg'
         ],
         [
-            'slug' => 'service-6',
+            'slug' => 'starting-restructuring-and-closing-a-business',
             'name' => 'services.our_services_6',
             'image' => 'service-img-6.jpg'
         ]

@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
+<?php
+    
+    $supportedLocales = ['en', 'sv'];
+
+    $segments = request()->segments();
+
+    // Remove current locale from first segment
+    if (in_array($segments[0] ?? '', $supportedLocales)) {
+        array_shift($segments);
+    }
+
+    $path = implode('/', $segments);
+
+?>
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,16 +23,18 @@
 	<meta name="keywords" content="{{ __('messages.page_keywords') }}" />
     <meta name="robots" content="index, follow">
 	<meta name="author" content="Nordicsiffran" />
-    <link rel="canonical" href="https://nordicsiffran.se/sv">
+    <link rel="canonical" href="{{ url()->current() }}">
 	<!-- Page Title -->
 	<title>{{ __('messages.page_title') . ' | ' . 'Nordicsiffran' }}</title>
     <!-- Meta Tage for Open Graph -->
     <meta property="og:title" content="{{ __('messages.page_title') . ' | ' . 'Nordicsiffran' }}">
     <meta property="og:description" content="{{ __('messages.page_description') }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nordicsiffran.se/sv"> 
-    <link rel="alternate" hreflang="en" href="https://nordicsiffran.se/en">
-    <link rel="alternate" hreflang="sv" href="https://nordicsiffran.se/sv">
+    <meta property="og:url" content="{{ url()->current() }}"> 
+    @foreach($supportedLocales as $locale)
+        <link rel="alternate" hreflang="{{ $locale }}" href="{{ url($locale . '/' . $path) }}">
+    @endforeach
+    <link rel="alternate" hreflang="x-default" href="{{ url('sv/' . $path) }}">
 	<!-- Favicon Icon -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}" />

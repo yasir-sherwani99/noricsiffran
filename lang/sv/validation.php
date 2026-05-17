@@ -180,29 +180,29 @@ return [
 
     'custom' => [
         'first_name' => [
-            'required' => 'Please enter your first name',
-            'min' => 'First name must be at least 1 characters',
-            'max' => 'First name must be at most 50 characters',
+            'required' => 'Vänligen ange ditt förnamn',
+            'min' => 'Förnamnet måste vara minst 1 tecken',
+            'max' => 'Förnamnet får vara högst 50 tecken långt',
         ],
         'last_name' => [
-            'required' => 'Please enter your last name',
-            'min' => 'Last name must be at least 1 characters',
-            'max' => 'Last name must be at most 50 characters',
+            'required' => 'Vänligen ange ditt efternamn',
+            'min' => 'Efternamnet måste vara minst 1 tecken',
+            'max' => 'Efternamnet får vara högst 50 tecken långt',
         ],
         'email' => [
-            'required' => 'Email address is required',
-            'valid' => 'Please enter a valid email address',
+            'required' => 'E-postadress är obligatorisk',
+            'valid' => 'Vänligen ange en giltig e-postadress',
         ],
         'phone' => [
-            'required' => 'Please enter your phone number'
+            'required' => 'Vänligen ange ditt telefonnummer'
         ],
         'message' => [
-            'required' => 'Message cannot be empty',
-            'min' => 'Message must be at least 10 characters',
-            'max' => 'Message must be at most 5000 characters',
+            'required' => 'Meddelandet får inte vara tomt',
+            'min' => 'Meddelandet måste innehålla minst 10 tecken',
+            'max' => 'Meddelandet får innehålla högst 5000 tecken',
         ],
         'recaptcha' => [
-            'token' => 'Please verify that you are not a robot'
+            'token' => 'Vänligen verifiera att du inte är en robot'
         ]
     ],
 
